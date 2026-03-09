@@ -12,7 +12,6 @@
 
 ### Сборка
 
-- Через qmake: открыть в Qt Creator файл `FileXorProcessor.pro`, выбрать Qt-kit с MinGW и собрать.
-- Через CMake в Qt Creator: открыть корневой каталог с `CMakeLists.txt`, выбрать профиль с MinGW и убедиться, что в нём корректно настроен путь к Qt (переменная `CMAKE_PREFIX_PATH` или `Qt6_DIR`/`Qt5_DIR`).
-- Через скрипт: запустить `build_mingw.bat` (должны быть в PATH CMake, MinGW и Qt, настроенные аналогично профилю Qt Creator).
+- Через qmake: открыть в Qt Creator файл `FileXorProcessor.pro`.
+- Через CMake в Qt Creator: открыть корневой каталог с `CMakeLists.txt`.
 
